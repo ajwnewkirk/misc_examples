@@ -38,7 +38,7 @@ shinyServer(function(input, output, session) {
     if(is.null(outplot())) {
       return(NULL)
     } else {
-      plot(outplot())
+      outplot()
     }
   })
   
